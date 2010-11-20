@@ -1,0 +1,155 @@
+TANSQLite
+v7
+r0
+t311905274.382151
+cCheck dependencies
+cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANSQLite_Prefix-affrktmpicgsnrcnkpiyozqwycbl/ANSQLite_Prefix.pch.gch ANSQLite_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite.o /Users/alex/Desktop/ANSQLite/ANSQLite.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite3Manager.o /Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C11730A0000000000B37440
+t1276211978
+s11760704
+
+N/Users/alex/Desktop/ANSQLite/ANSQLite.m
+c000000004CE7146D0000000000000197
+t1290212461
+s407
+i<Foundation/Foundation.h>
+i"ANSQLite3Manager.h"
+
+N/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.h
+c000000004CE713130000000000000239
+t1290212115
+s569
+i<Cocoa/Cocoa.h>
+i<sqlite3.h>
+
+N/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m
+c000000004CE713710000000000000AC6
+t1290212209
+s2758
+i"ANSQLite3Manager.h"
+
+N/Users/alex/Desktop/ANSQLite/ANSQLite_Prefix.pch
+c000000004CE70ED2000000000000009E
+t1290211026
+s158
+i<Foundation/Foundation.h>
+
+N/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite.LinkFileList
+c000000004CE7147600000000000000D8
+t1290212470
+s216
+
+N/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite.o
+t1290212474
+s8032
+
+N/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite3Manager.o
+t2
+s0
+
+N/Users/alex/Desktop/ANSQLite/build/Debug/ANSQLite
+t2
+s0
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/usr/include/sqlite3.h
+c000000004C239FC5000000000003D86F
+t1277403077
+s252015
+
+N/Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk/usr/local/lib/fpc/2.4.0/units/i386-darwin/sqlite/sqlite3.o
+c000000004B2E31F2000000000000252C
+t1261318642
+s9516
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANSQLite_Prefix-affrktmpicgsnrcnkpiyozqwycbl/ANSQLite_Prefix.pch.gch
+t1290212473
+s41442064
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies311905270#311905270#0(0"0(0#1#0"8631299776#0"0#
+
+CCompileC build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite.o /Users/alex/Desktop/ANSQLite/ANSQLite.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s311905273.914813
+e311905274.382043
+r1
+xCompileC
+xbuild/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite.o
+x/Users/alex/Desktop/ANSQLite/ANSQLite.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.h:12: warning: 'gReturnValue' defined but not used
+lSLF07#2@47"Compile /Users/alex/Desktop/ANSQLite/ANSQLite.m311905273#311905274#0(97"/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.h:12: warning: 'gReturnValue' defined but not used1(22@35"'gReturnValue' defined but not used311905274#0#97#0(6@47"/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.h311904915#12#0#12#0#24"'*' defined but not used0(0#0#39"/Users/alex/Desktop/ANSQLite/ANSQLite.m8640412576#1398"    cd /Users/alex/Desktop/ANSQLite    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-generated-files.hmap -I/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-own-target-headers.hmap -I/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-all-target-headers.hmap -iquote /Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-project-headers.hmap -F/Users/alex/Desktop/ANSQLite/build/Debug -I/Users/alex/Desktop/ANSQLite/build/Debug/include -I/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/DerivedSources/x86_64 -I/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANSQLite_Prefix-affrktmpicgsnrcnkpiyozqwycbl/ANSQLite_Prefix.pch -c /Users/alex/Desktop/ANSQLite/ANSQLite.m -o /Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite.o0#
+
+CCompileC build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite3Manager.o /Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s311905273.916602
+e311905274.341518
+r0
+xCompileC
+xbuild/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite3Manager.o
+x/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m: In function 'callback':
+o/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m:19: warning: missing sentinel in function call
+o/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m:23: warning: control reaches end of non-void function
+o/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m: In function '-[ANSQLite3Manager executeQuery:]':
+o/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m:61: error: 'myCallback' undeclared (first use in this function)
+o/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m:61: error: (Each undeclared identifier is reported only once
+o/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m:61: error: for each function it appears in.)
+o/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m: At top level:
+o/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m:101: warning: property 'database' requires method '-database' to be defined - use @synthesize, @dynamic or provide a method implementation
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+lSLF07#2@55"Compile /Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m311905273#311905274#0(1949"/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m: In function 'callback':/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m:19: warning: missing sentinel in function call/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m:23: warning: control reaches end of non-void function/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m: In function '-[ANSQLite3Manager executeQuery:]':/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m:61: error: 'myCallback' undeclared (first use in this function)/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m:61: error: (Each undeclared identifier is reported only once/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m:61: error: for each function it appears in.)/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m: At top level:/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m:101: warning: property 'database' requires method '-database' to be defined - use @synthesize, @dynamic or provide a method implementation{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_4{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_65(22@33"Missing sentinel in function call311905274#73#95#0(6@47"/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m311905009#19#0#19#0#0"0(22@40"Control reaches end of non-void function311905274#168#102#0(6@47"/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m311905009#23#0#23#0#40"control reaches end of non-void function0(4@52"'myCallback' undeclared (first use in this function)311905274#368#112#0(6@47"/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m311905009#61#0#61#0#43"'*' undeclared (first use in this function)0(23@13"At top level:311905274#682#63#0(6@47"/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m311905009#0#0#0#0#0"0(22@124"Property 'database' requires method '-database' to be defined - use @synthesize, @dynamic or provide a method implementation311905274#745#187#0(6@47"/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m311905009#101#0#101#0#0"0(0#0#47"/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m8629073728#1414"    cd /Users/alex/Desktop/ANSQLite    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-generated-files.hmap -I/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-own-target-headers.hmap -I/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-all-target-headers.hmap -iquote /Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-project-headers.hmap -F/Users/alex/Desktop/ANSQLite/build/Debug -I/Users/alex/Desktop/ANSQLite/build/Debug/include -I/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/DerivedSources/x86_64 -I/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANSQLite_Prefix-affrktmpicgsnrcnkpiyozqwycbl/ANSQLite_Prefix.pch -c /Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m -o /Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite3Manager.o1#
+
+CLd /Users/alex/Desktop/ANSQLite/build/Debug/ANSQLite normal x86_64
+r0
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANSQLite_Prefix-affrktmpicgsnrcnkpiyozqwycbl/ANSQLite_Prefix.pch.gch ANSQLite_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s311905270.819210
+e311905273.914356
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANSQLite_Prefix-affrktmpicgsnrcnkpiyozqwycbl/ANSQLite_Prefix.pch.gch
+xANSQLite_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile ANSQLite_Prefix.pch311905270#311905273#0(0"0(0#0#48"/Users/alex/Desktop/ANSQLite/ANSQLite_Prefix.pch8643541440#1305"    cd /Users/alex/Desktop/ANSQLite    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-generated-files.hmap -I/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-own-target-headers.hmap -I/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-all-target-headers.hmap -iquote /Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-project-headers.hmap -F/Users/alex/Desktop/ANSQLite/build/Debug -I/Users/alex/Desktop/ANSQLite/build/Debug/include -I/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/DerivedSources/x86_64 -I/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/DerivedSources -c /Users/alex/Desktop/ANSQLite/ANSQLite_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANSQLite_Prefix-affrktmpicgsnrcnkpiyozqwycbl/ANSQLite_Prefix.pch.gch0#
+
