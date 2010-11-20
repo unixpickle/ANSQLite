@@ -3,11 +3,13 @@
 //  ANSQLite
 //
 //  Created by Alex Nichol on 11/19/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Jitsik. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
 #import <sqlite3.h>
+
+
 
 @interface ANSQLite3Manager : NSObject {
 	sqlite3 * database;

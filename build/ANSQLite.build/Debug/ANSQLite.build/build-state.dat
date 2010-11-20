@@ -1,7 +1,7 @@
 TANSQLite
 v7
 r0
-t311916974.461938
+t311979306.974732
 cCheck dependencies
 cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANSQLite_Prefix-abbyfgxfrtqwvabjzhomkrhwjstl/ANSQLite_Prefix.pch.gch ANSQLite_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite.o /Users/alex/xCode/git/ANSQLite/ANSQLite.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
@@ -69,16 +69,16 @@ i<Foundation/Foundation.h>
 i"ANSQLite3Manager.h"
 
 N/Users/alex/xCode/git/ANSQLite/ANSQLite3Manager.h
-c000000004CE74219000000000000021E
-t1290224153
-s542
+c000000004CE8359C0000000000000215
+t1290286492
+s533
 i<Cocoa/Cocoa.h>
 i<sqlite3.h>
 
 N/Users/alex/xCode/git/ANSQLite/ANSQLite3Manager.m
-c000000004CE742200000000000000D2D
-t1290224160
-s3373
+c000000004CE835A10000000000000EFF
+t1290286497
+s3839
 i"ANSQLite3Manager.h"
 
 N/Users/alex/xCode/git/ANSQLite/ANSQLite_Prefix.pch
@@ -93,16 +93,16 @@ t1290224136
 s220
 
 N/Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite.o
-t1290224162
+t1290286506
 s11100
 
 N/Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite3Manager.o
-t1290224162
-s21760
+t1290286506
+s22256
 
 N/Users/alex/xCode/git/ANSQLite/build/Debug/ANSQLite
-t1290224162
-s17360
+t1290286506
+s17464
 
 N/Users/alex/xCode/git/ANSQLite/libsqlite3.dylib
 c00000000000000000000000000000000
@@ -144,7 +144,7 @@ s41442064
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies311916974#311916974#0(0"0(0#1#0"8620260800#0"0#
+lSLF07#2@18"Check dependencies311979306#311979306#0(0"0(0#1#0"8531300039713846272#0"0#
 
 CCompileC build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite.o /Users/alex/Desktop/ANSQLite/ANSQLite.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s311907537.318346
@@ -161,8 +161,8 @@ o/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.h:12: warning: 'gReturnValue' def
 lSLF07#2@47"Compile /Users/alex/Desktop/ANSQLite/ANSQLite.m311907537#311907537#0(97"/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.h:12: warning: 'gReturnValue' defined but not used1(22@35"'gReturnValue' defined but not used311907537#0#97#0(6@47"/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.h311906071#12#0#12#0#24"'*' defined but not used0(0#0#39"/Users/alex/Desktop/ANSQLite/ANSQLite.m8640342976#1398"    cd /Users/alex/Desktop/ANSQLite    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-generated-files.hmap -I/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-own-target-headers.hmap -I/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-all-target-headers.hmap -iquote /Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-project-headers.hmap -F/Users/alex/Desktop/ANSQLite/build/Debug -I/Users/alex/Desktop/ANSQLite/build/Debug/include -I/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/DerivedSources/x86_64 -I/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANSQLite_Prefix-affrktmpicgsnrcnkpiyozqwycbl/ANSQLite_Prefix.pch -c /Users/alex/Desktop/ANSQLite/ANSQLite.m -o /Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite.o0#
 
 CCompileC build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite.o /Users/alex/xCode/git/ANSQLite/ANSQLite.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s311916961.765920
-e311916962.119113
+s311979306.248943
+e311979306.592468
 r1
 xCompileC
 xbuild/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite.o
@@ -171,7 +171,7 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@49"Compile /Users/alex/xCode/git/ANSQLite/ANSQLite.m311916961#311916962#0(0"0(0#0#41"/Users/alex/xCode/git/ANSQLite/ANSQLite.m8599234944#1420"    cd /Users/alex/xCode/git/ANSQLite    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-generated-files.hmap -I/Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-own-target-headers.hmap -I/Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-all-target-headers.hmap -iquote /Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-project-headers.hmap -F/Users/alex/xCode/git/ANSQLite/build/Debug -I/Users/alex/xCode/git/ANSQLite/build/Debug/include -I/Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANSQLite_Prefix-abbyfgxfrtqwvabjzhomkrhwjstl/ANSQLite_Prefix.pch -c /Users/alex/xCode/git/ANSQLite/ANSQLite.m -o /Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite.o0#
+lSLF07#2@49"Compile /Users/alex/xCode/git/ANSQLite/ANSQLite.m311979306#311979306#0(0"0(0#0#41"/Users/alex/xCode/git/ANSQLite/ANSQLite.m3917909816998063104#1420"    cd /Users/alex/xCode/git/ANSQLite    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-generated-files.hmap -I/Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-own-target-headers.hmap -I/Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-all-target-headers.hmap -iquote /Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-project-headers.hmap -F/Users/alex/xCode/git/ANSQLite/build/Debug -I/Users/alex/xCode/git/ANSQLite/build/Debug/include -I/Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANSQLite_Prefix-abbyfgxfrtqwvabjzhomkrhwjstl/ANSQLite_Prefix.pch -c /Users/alex/xCode/git/ANSQLite/ANSQLite.m -o /Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite.o0#
 
 CCompileC build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite3Manager.o /Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s311907537.500561
@@ -187,8 +187,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@55"Compile /Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m311907537#311907537#0(0"0(0#0#47"/Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m8642803456#1414"    cd /Users/alex/Desktop/ANSQLite    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-generated-files.hmap -I/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-own-target-headers.hmap -I/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-all-target-headers.hmap -iquote /Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-project-headers.hmap -F/Users/alex/Desktop/ANSQLite/build/Debug -I/Users/alex/Desktop/ANSQLite/build/Debug/include -I/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/DerivedSources/x86_64 -I/Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANSQLite_Prefix-affrktmpicgsnrcnkpiyozqwycbl/ANSQLite_Prefix.pch -c /Users/alex/Desktop/ANSQLite/ANSQLite3Manager.m -o /Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite3Manager.o0#
 
 CCompileC build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite3Manager.o /Users/alex/xCode/git/ANSQLite/ANSQLite3Manager.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s311916961.766901
-e311916962.265660
+s311979306.273833
+e311979306.853101
 r1
 xCompileC
 xbuild/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite3Manager.o
@@ -197,7 +197,7 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /Users/alex/xCode/git/ANSQLite/ANSQLite3Manager.m311916961#311916962#0(0"0(0#0#49"/Users/alex/xCode/git/ANSQLite/ANSQLite3Manager.m8611708064#1436"    cd /Users/alex/xCode/git/ANSQLite    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-generated-files.hmap -I/Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-own-target-headers.hmap -I/Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-all-target-headers.hmap -iquote /Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-project-headers.hmap -F/Users/alex/xCode/git/ANSQLite/build/Debug -I/Users/alex/xCode/git/ANSQLite/build/Debug/include -I/Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANSQLite_Prefix-abbyfgxfrtqwvabjzhomkrhwjstl/ANSQLite_Prefix.pch -c /Users/alex/xCode/git/ANSQLite/ANSQLite3Manager.m -o /Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite3Manager.o0#
+lSLF07#2@57"Compile /Users/alex/xCode/git/ANSQLite/ANSQLite3Manager.m311979306#311979306#0(0"0(0#0#49"/Users/alex/xCode/git/ANSQLite/ANSQLite3Manager.m8609607904#1436"    cd /Users/alex/xCode/git/ANSQLite    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-generated-files.hmap -I/Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-own-target-headers.hmap -I/Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-all-target-headers.hmap -iquote /Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/ANSQLite-project-headers.hmap -F/Users/alex/xCode/git/ANSQLite/build/Debug -I/Users/alex/xCode/git/ANSQLite/build/Debug/include -I/Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/DerivedSources/x86_64 -I/Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANSQLite_Prefix-abbyfgxfrtqwvabjzhomkrhwjstl/ANSQLite_Prefix.pch -c /Users/alex/xCode/git/ANSQLite/ANSQLite3Manager.m -o /Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite3Manager.o0#
 
 CLd /Users/alex/Desktop/ANSQLite/build/Debug/ANSQLite normal x86_64
 s311907537.868086
@@ -210,14 +210,14 @@ xx86_64
 lSLF07#2@54"Link /Users/alex/Desktop/ANSQLite/build/Debug/ANSQLite311907537#311907537#0(0"0(0#0#0"8645383296#545"    cd /Users/alex/Desktop/ANSQLite    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -L/Users/alex/Desktop/ANSQLite/build/Debug -L/Users/alex/Desktop/ANSQLite -F/Users/alex/Desktop/ANSQLite/build/Debug -filelist /Users/alex/Desktop/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -lsqlite3 -o /Users/alex/Desktop/ANSQLite/build/Debug/ANSQLite0#
 
 CLd /Users/alex/xCode/git/ANSQLite/build/Debug/ANSQLite normal x86_64
-s311916962.265831
-e311916962.285782
+s311979306.853188
+e311979306.974668
 r1
 xLd
 x/Users/alex/xCode/git/ANSQLite/build/Debug/ANSQLite
 xnormal
 xx86_64
-lSLF07#2@56"Link /Users/alex/xCode/git/ANSQLite/build/Debug/ANSQLite311916962#311916962#0(0"0(0#0#0"8619648288#557"    cd /Users/alex/xCode/git/ANSQLite    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -L/Users/alex/xCode/git/ANSQLite/build/Debug -L/Users/alex/xCode/git/ANSQLite -F/Users/alex/xCode/git/ANSQLite/build/Debug -filelist /Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -lsqlite3 -o /Users/alex/xCode/git/ANSQLite/build/Debug/ANSQLite0#
+lSLF07#2@56"Link /Users/alex/xCode/git/ANSQLite/build/Debug/ANSQLite311979306#311979306#0(0"0(0#0#0"23362758078693424#557"    cd /Users/alex/xCode/git/ANSQLite    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -L/Users/alex/xCode/git/ANSQLite/build/Debug -L/Users/alex/xCode/git/ANSQLite -F/Users/alex/xCode/git/ANSQLite/build/Debug -filelist /Users/alex/xCode/git/ANSQLite/build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLite.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -lsqlite3 -o /Users/alex/xCode/git/ANSQLite/build/Debug/ANSQLite0#
 
 CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANSQLite_Prefix-abbyfgxfrtqwvabjzhomkrhwjstl/ANSQLite_Prefix.pch.gch ANSQLite_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s311916936.580646

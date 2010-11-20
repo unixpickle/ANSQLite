@@ -10,8 +10,8 @@
 		8DD76F9A0486AA7600D96B5E /* ANSQLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* ANSQLite.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
 		8DD76F9F0486AA7600D96B5E /* ANSQLite.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* ANSQLite.1 */; };
-		FA2FA1E91297465D00A7A24E /* ANSQLite3Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2FA1E81297465D00A7A24E /* ANSQLite3Manager.m */; };
 		FA2FA20412974CB900A7A24E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2FA20312974CB900A7A24E /* libsqlite3.dylib */; };
+		FAA802AF12986D290070D4D5 /* ANSQLite3Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA802AE12986D290070D4D5 /* ANSQLite3Manager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,9 +33,9 @@
 		32A70AAB03705E1F00C91783 /* ANSQLite_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSQLite_Prefix.pch; sourceTree = "<group>"; };
 		8DD76FA10486AA7600D96B5E /* ANSQLite */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ANSQLite; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6859EA3029092ED04C91782 /* ANSQLite.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ANSQLite.1; sourceTree = "<group>"; };
-		FA2FA1E71297465D00A7A24E /* ANSQLite3Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSQLite3Manager.h; sourceTree = "<group>"; };
-		FA2FA1E81297465D00A7A24E /* ANSQLite3Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSQLite3Manager.m; sourceTree = "<group>"; };
 		FA2FA20312974CB900A7A24E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsqlite3.dylib; sourceTree = "<group>"; };
+		FAA802AD12986D290070D4D5 /* ANSQLite3Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSQLite3Manager.h; sourceTree = "<group>"; };
+		FAA802AE12986D290070D4D5 /* ANSQLite3Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSQLite3Manager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +67,8 @@
 			children = (
 				32A70AAB03705E1F00C91783 /* ANSQLite_Prefix.pch */,
 				08FB7796FE84155DC02AAC07 /* ANSQLite.m */,
-				FA2FA1E71297465D00A7A24E /* ANSQLite3Manager.h */,
-				FA2FA1E81297465D00A7A24E /* ANSQLite3Manager.m */,
+				FAA802AD12986D290070D4D5 /* ANSQLite3Manager.h */,
+				FAA802AE12986D290070D4D5 /* ANSQLite3Manager.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -149,7 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD76F9A0486AA7600D96B5E /* ANSQLite.m in Sources */,
-				FA2FA1E91297465D00A7A24E /* ANSQLite3Manager.m in Sources */,
+				FAA802AF12986D290070D4D5 /* ANSQLite3Manager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

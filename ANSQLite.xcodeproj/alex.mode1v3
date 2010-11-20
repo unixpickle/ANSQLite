@@ -230,8 +230,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -275,7 +273,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
+									<integer>4</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -311,12 +309,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ANSQLite3Manager.m</string>
+								<string>ANSQLite3Manager.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,16 +324,16 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ANSQLite3Manager.m</string>
+										<string>ANSQLite3Manager.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FA8F79A9129779B5000B7FA3</string>
+										<string>FA8F79AD12977A09000B7FA3</string>
 										<key>history</key>
 										<array>
 											<string>FA8F79A6129779B5000B7FA3</string>
+											<string>FA8F79AC12977A09000B7FA3</string>
 											<string>FA8F79A7129779B5000B7FA3</string>
-											<string>FA8F79A8129779B5000B7FA3</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

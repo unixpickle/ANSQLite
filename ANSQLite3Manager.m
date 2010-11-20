@@ -3,7 +3,7 @@
 //  ANSQLite
 //
 //  Created by Alex Nichol on 11/19/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Jitsik. All rights reserved.
 //
 
 #import "ANSQLite3Manager.h"
@@ -92,9 +92,23 @@ static int myCallback (void * notUsed, int argc, char * argv[], char * names[]) 
 		NSMutableDictionary * row = [[NSMutableDictionary alloc] init];
 		for (int i = 0; i < sqlite3_column_count(stmt); i++) {
 			const char * name = sqlite3_column_name(stmt, i);
-			char * value = (char *)sqlite3_column_text(stmt, i);
-			[row setObject:[NSString stringWithFormat:@"%s", value] forKey:[NSString stringWithFormat:@"%s", name]];
-			free(value);
+			char * value = (char *)sqlite3_column_blob(stmt, i);
+			if (!value) {
+				value = (char *)sqlite3_column_text(stmt, i);
+			}
+			int length = sqlite3_column_bytes(stmt, i);
+			if (!value) value = "";
+			// check for null termination
+			BOOL isNullTermed = YES;
+			for (int i = 0; i < length; i++) {
+				if (value[i] == 0) isNullTermed = NO;
+			}
+			
+			//printf("column: %s, contents: %s\n", name, value);
+			
+			if (isNullTermed)
+				[row setObject:[NSString stringWithFormat:@"%s", value] forKey:[NSString stringWithFormat:@"%s", name]];
+			else [row setObject:[NSData dataWithBytes:value length:length] forKey:[NSString stringWithFormat:@"%s", name]];
 		}
 		[resultArray addObject:[row autorelease]];
 	}
