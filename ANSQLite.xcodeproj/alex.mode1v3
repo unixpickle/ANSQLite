@@ -230,6 +230,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -273,7 +275,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
+									<integer>5</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -298,7 +300,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>808 452 788 504 0 0 1920 1058 </string>
+						<string>1132 345 788 504 0 0 1920 1058 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -309,14 +311,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ANSQLite.m</string>
+								<string>ANSQLite3Manager.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,16 +324,16 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ANSQLite.m</string>
+										<string>ANSQLite3Manager.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FAF1ABE2129755A3002F5E8F</string>
+										<string>FA8F79A9129779B5000B7FA3</string>
 										<key>history</key>
 										<array>
-											<string>FA2FA2521297506C00A7A24E</string>
-											<string>FA2FA2E1129754C600A7A24E</string>
-											<string>FA2FA2EB129754F900A7A24E</string>
+											<string>FA8F79A6129779B5000B7FA3</string>
+											<string>FA8F79A7129779B5000B7FA3</string>
+											<string>FA8F79A8129779B5000B7FA3</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -345,14 +345,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {580, 269}}</string>
+								<string>{{0, 0}, {580, 251}}</string>
 								<key>RubberWindowFrame</key>
-								<string>808 452 788 504 0 0 1920 1058 </string>
+								<string>1132 345 788 504 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>269pt</string>
+							<string>251pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -365,14 +365,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 274}, {580, 189}}</string>
+								<string>{{0, 256}, {580, 207}}</string>
 								<key>RubberWindowFrame</key>
-								<string>808 452 788 504 0 0 1920 1058 </string>
+								<string>1132 345 788 504 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>189pt</string>
+							<string>207pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -391,9 +391,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FAF1ABE3129755A3002F5E8F</string>
+				<string>FA8F798C12977973000B7FA3</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>FAF1ABE4129755A3002F5E8F</string>
+				<string>FA8F798D12977973000B7FA3</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -531,11 +531,15 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>FA8F79AA129779B5000B7FA3</string>
+		<string>FA8F79AB129779B5000B7FA3</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>FA2FA1F612974C2C00A7A24E</string>
 		<string>/Users/alex/xCode/git/ANSQLite/ANSQLite.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>808 452 788 504 0 0 1920 1058 </string>
+	<string>1132 345 788 504 0 0 1920 1058 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -551,12 +555,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>ANSQLite3Manager.h</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -612,7 +618,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>FA2FA1F612974C2C00A7A24E</string>
-				<string>FAF1ABE5129755A3002F5E8F</string>
+				<string>FA8F798E12977973000B7FA3</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -656,8 +662,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 185}}</string>
-											<string>{{316, 0}, {378, 185}}</string>
+											<string>{{0, 0}, {316, 194}}</string>
+											<string>{{316, 0}, {378, 194}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -672,8 +678,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 185}}</string>
-											<string>{{0, 185}, {694, 196}}</string>
+											<string>{{0, 0}, {694, 194}}</string>
+											<string>{{0, 194}, {694, 187}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -706,7 +712,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 185}}</string>
+									<string>{{316, 0}, {378, 194}}</string>
 									<key>RubberWindowFrame</key>
 									<string>828 512 694 422 0 0 1920 1058 </string>
 								</dict>
@@ -734,13 +740,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>FA2FA20A12974CCD00A7A24E</string>
+				<string>FA8F799F129779B2000B7FA3</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>FA2FA20B12974CCD00A7A24E</string>
-				<string>FA2FA20C12974CCD00A7A24E</string>
-				<string>FA2FA20D12974CCD00A7A24E</string>
-				<string>FA2FA20E12974CCD00A7A24E</string>
-				<string>FA2FA20F12974CCD00A7A24E</string>
+				<string>FA8F79A0129779B2000B7FA3</string>
+				<string>FA8F79A1129779B2000B7FA3</string>
+				<string>FA8F79A2129779B2000B7FA3</string>
+				<string>FA8F79A3129779B2000B7FA3</string>
+				<string>FA8F79A4129779B2000B7FA3</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -904,7 +910,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>FA2FA21012974CCD00A7A24E</string>
+				<string>FA8F79A5129779B2000B7FA3</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

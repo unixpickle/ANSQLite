@@ -8,6 +8,8 @@
 
 #import "ANSQLite3Manager.h"
 
+static NSMutableArray * gReturnValue;
+
 static int myCallback (void * notUsed, int argc, char * argv[], char * names[]) {
 	NSMutableDictionary * properties = [NSMutableDictionary dictionary];
 	notUsed = NULL;
@@ -68,7 +70,7 @@ static int myCallback (void * notUsed, int argc, char * argv[], char * names[]) 
 	}
 	return [gReturnValue autorelease];
 }
-- (BOOL)executeQuery:(NSString *)query withParameters:(NSArray *)params {
+- (NSArray *)executeQuery:(NSString *)query withParameters:(NSArray *)params {
 	sqlite3_stmt * stmt;
 	int rc = sqlite3_prepare_v2(database, [query UTF8String], [query length],
 								&stmt, NULL);
@@ -84,14 +86,26 @@ static int myCallback (void * notUsed, int argc, char * argv[], char * names[]) 
 			sqlite3_bind_int(stmt, i+1, [(NSNumber *)obj intValue]);
 		}
 	}
-	sqlite3_step(stmt);
+	NSMutableArray * resultArray = [[NSMutableArray alloc] init];
+	
+	while (sqlite3_step(stmt) == SQLITE_ROW) {
+		NSMutableDictionary * row = [[NSMutableDictionary alloc] init];
+		for (int i = 0; i < sqlite3_column_count(stmt); i++) {
+			const char * name = sqlite3_column_name(stmt, i);
+			char * value = (char *)sqlite3_column_text(stmt, i);
+			[row setObject:[NSString stringWithFormat:@"%s", value] forKey:[NSString stringWithFormat:@"%s", name]];
+			free(value);
+		}
+		[resultArray addObject:[row autorelease]];
+	}
 	sqlite3_reset(stmt);
 	sqlite3_finalize(stmt);
 	if (rc != SQLITE_OK) {
 		// there was a serious problem
-		return NO;
+		[resultArray release];
+		return nil;
 	}
-	return YES;
+	return [resultArray autorelease];
 }
 - (void)closeDatabase {
 	sqlite3_close(database);

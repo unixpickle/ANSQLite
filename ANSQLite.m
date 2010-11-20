@@ -12,7 +12,7 @@ int main (int argc, const char * argv[]) {
 	[man executeQuery:@"create table if not exists sessions (id INTEGER NOT NULL, name VARCHAR(20), contents TEXT, PRIMARY KEY (id), UNIQUE (id))"];
 	NSString * name = @"username";
 	NSString * _contents = [NSString stringWithFormat:@"userid # %d", arc4random()];
-	BOOL b = [man executeQuery:@"INSERT INTO sessions (name, contents) VALUES (?, ?)" 
+	NSArray * b = [man executeQuery:@"INSERT INTO sessions (name, contents) VALUES (?, ?)" 
 				withParameters:[NSArray arrayWithObjects:name, _contents, nil]];
 	if (!b) {
 		NSLog(@"Could not run query.");

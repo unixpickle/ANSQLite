@@ -9,15 +9,13 @@
 #import <Cocoa/Cocoa.h>
 #import <sqlite3.h>
 
-static NSMutableArray * gReturnValue;
-
 @interface ANSQLite3Manager : NSObject {
 	sqlite3 * database;
 }
 - (id)initWithDatabaseFile:(NSString *)filename;
 - (void)openDatabaseFile:(NSString *)filename;
 - (NSArray *)executeQuery:(NSString *)query;
-- (BOOL)executeQuery:(NSString *)query withParameters:(NSArray *)params;
+- (NSArray *)executeQuery:(NSString *)query withParameters:(NSArray *)params;
 - (void)closeDatabase;
 @property (readonly) sqlite3 * database;
 @end
