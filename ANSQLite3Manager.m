@@ -41,15 +41,19 @@ static int myCallback (void * notUsed, int argc, char * argv[], char * names[]) 
 			FILE * fp = fopen([filename UTF8String], "w");
 			fclose(fp);
 		}
+		database = NULL;
 		int rc = sqlite3_open([filename UTF8String], &database);
 		if (rc) {
-			sqlite3_close(database);
+			if (database) sqlite3_close(database);
 			return nil;
 		}
 	}
 	return self;
 }
-- (void)openDatabaseFile:(NSString *)filename {
+- (BOOL)openDatabaseFile:(NSString *)filename {
+	if (database) {
+		return NO;
+	}
 	if (![[NSFileManager defaultManager] fileExistsAtPath:filename]) {
 		FILE * fp = fopen([filename UTF8String], "w");
 		fclose(fp);
@@ -58,7 +62,9 @@ static int myCallback (void * notUsed, int argc, char * argv[], char * names[]) 
 	if (rc) {
 		sqlite3_close(database);
 		database = NULL;
+		return NO;
 	}
+	else return YES;
 }
 - (NSArray *)executeQuery:(NSString *)query {
 	if (!database) return nil;

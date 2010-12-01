@@ -58,14 +58,13 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 311979266;
-			PBXWorkspaceStateSaveDate = 311979266;
+			PBXPerProjectTemplateStateSaveDate = 312858035;
+			PBXWorkspaceStateSaveDate = 312858035;
 		};
 		perUserProjectItems = {
-			FA8F79A6129779B5000B7FA3 = FA8F79A6129779B5000B7FA3 /* PBXTextBookmark */;
-			FA8F79A7129779B5000B7FA3 = FA8F79A7129779B5000B7FA3 /* PBXTextBookmark */;
-			FA8F79AC12977A09000B7FA3 = FA8F79AC12977A09000B7FA3 /* PBXTextBookmark */;
-			FA8F79AD12977A09000B7FA3 = FA8F79AD12977A09000B7FA3 /* PBXTextBookmark */;
+			FA2DCE61129872780036464D = FA2DCE61129872780036464D /* PBXTextBookmark */;
+			FA2DCE62129872780036464D = FA2DCE62129872780036464D /* PBXBookmark */;
+			FA2DCE67129894800036464D = FA2DCE67129894800036464D /* PBXTextBookmark */;
 		};
 		sourceControlManager = FA2FA1EA1297465E00A7A24E /* Source Control */;
 		userBuildSettings = {
@@ -73,9 +72,9 @@
 	};
 	08FB7796FE84155DC02AAC07 /* ANSQLite.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {900, 490}}";
-			sepNavSelRange = "{820, 0}";
-			sepNavVisRange = "{0, 761}";
+			sepNavIntBoundsRect = "{{0, 0}, {900, 476}}";
+			sepNavSelRange = "{174, 94}";
+			sepNavVisRange = "{34, 658}";
 		};
 	};
 	8DD76F960486AA7600D96B5E /* ANSQLite */ = {
@@ -83,6 +82,30 @@
 		executables = (
 			FA2FA1E21297465200A7A24E /* ANSQLite */,
 		);
+	};
+	FA2DCE61129872780036464D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* ANSQLite.m */;
+		name = "ANSQLite.m: 7";
+		rLen = 94;
+		rLoc = 174;
+		rType = 0;
+		vrLen = 727;
+		vrLoc = 34;
+	};
+	FA2DCE62129872780036464D /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FAA802AD12986D290070D4D5 /* ANSQLite3Manager.h */;
+	};
+	FA2DCE67129894800036464D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAA802AD12986D290070D4D5 /* ANSQLite3Manager.h */;
+		name = "ANSQLite3Manager.h: 5";
+		rLen = 0;
+		rLoc = 76;
+		rType = 0;
+		vrLen = 243;
+		vrLoc = 0;
 	};
 	FA2FA1E21297465200A7A24E /* ANSQLite */ = {
 		isa = PBXExecutable;
@@ -116,32 +139,6 @@
 		variableFormatDictionary = {
 		};
 	};
-	FA2FA1E71297465D00A7A24E /* ANSQLite3Manager.h */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.h;
-		name = ANSQLite3Manager.h;
-		path = /Users/alex/xCode/git/ANSQLite/ANSQLite3Manager.h;
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 308}}";
-			sepNavSelRange = "{107, 0}";
-			sepNavVisRange = "{0, 292}";
-		};
-	};
-	FA2FA1E81297465D00A7A24E /* ANSQLite3Manager.m */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.objc;
-		name = ANSQLite3Manager.m;
-		path = /Users/alex/xCode/git/ANSQLite/ANSQLite3Manager.m;
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {708, 1666}}";
-			sepNavSelRange = "{107, 0}";
-			sepNavVisRange = "{3133, 229}";
-		};
-	};
 	FA2FA1EA1297465E00A7A24E /* Source Control */ = {
 		isa = PBXSourceControlManager;
 		fallbackIsa = XCSourceControlManager;
@@ -156,44 +153,11 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	FA8F79A6129779B5000B7FA3 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* ANSQLite.m */;
-		name = "ANSQLite.m: 20";
-		rLen = 0;
-		rLoc = 820;
-		rType = 0;
-		vrLen = 761;
-		vrLoc = 0;
-	};
-	FA8F79A7129779B5000B7FA3 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FA2FA1E71297465D00A7A24E /* ANSQLite3Manager.h */;
-		name = "ANSQLite3Manager.h: 10";
-		rLen = 0;
-		rLoc = 177;
-		rType = 0;
-		vrLen = 460;
-		vrLoc = 82;
-	};
-	FA8F79AC12977A09000B7FA3 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FA2FA1E81297465D00A7A24E /* ANSQLite3Manager.m */;
-		name = "ANSQLite3Manager.m: 11";
-		rLen = 0;
-		rLoc = 201;
-		rType = 0;
-		vrLen = 391;
-		vrLoc = 0;
-	};
-	FA8F79AD12977A09000B7FA3 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FA2FA1E71297465D00A7A24E /* ANSQLite3Manager.h */;
-		name = "ANSQLite3Manager.h: 18";
-		rLen = 0;
-		rLoc = 430;
-		rType = 0;
-		vrLen = 460;
-		vrLoc = 82;
+	FAA802AD12986D290070D4D5 /* ANSQLite3Manager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 336}}";
+			sepNavSelRange = "{386, 76}";
+			sepNavVisRange = "{178, 355}";
+		};
 	};
 }

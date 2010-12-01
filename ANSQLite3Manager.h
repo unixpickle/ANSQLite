@@ -15,7 +15,7 @@
 	sqlite3 * database;
 }
 - (id)initWithDatabaseFile:(NSString *)filename;
-- (void)openDatabaseFile:(NSString *)filename;
+- (BOOL)openDatabaseFile:(NSString *)filename;
 - (NSArray *)executeQuery:(NSString *)query;
 - (NSArray *)executeQuery:(NSString *)query withParameters:(NSArray *)params;
 - (void)closeDatabase;
