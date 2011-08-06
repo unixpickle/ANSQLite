@@ -115,7 +115,9 @@
 		[row release];
 	}
 	sqlite3_finalize(stmt);
-	return resultArray;
+	NSArray * immutable = [NSArray arrayWithArray:resultArray];
+	[resultArray release];
+	return immutable;
 }
 
 - (void)closeDatabase {
