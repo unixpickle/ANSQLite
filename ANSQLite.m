@@ -21,10 +21,10 @@ int main (int argc, const char * argv[]) {
 	NSArray * contents = [man executeQuery:@"SELECT * FROM sessions"];
 	for (int i = 0; i < [contents count]; i++) {
 		NSDictionary * dict = [contents objectAtIndex:i];
-		const char * idstring = (const char *)[(NSData *)[dict objectForKey:@"id"] bytes];
-		const char * namestring = (const char *)[(NSData *)[dict objectForKey:@"name"] bytes];
-		const char * contentstring = (const char *)[(NSData *)[dict objectForKey:@"contents"] bytes];
-		printf("%s|%s|%s\n", idstring, namestring, contentstring);
+		int itemID = [[dict objectForKey:@"id"] intValue];
+		NSString * name = [dict objectForKey:@"name"];
+		NSString * contents = [dict objectForKey:@"contents"];
+		NSLog(@"%d|%@|%@", itemID, name, contents);
 	}
 	
 	[man release];

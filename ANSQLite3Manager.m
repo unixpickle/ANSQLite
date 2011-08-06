@@ -8,23 +8,6 @@
 
 #import "ANSQLite3Manager.h"
 
-static NSMutableArray * gReturnValue;
-
-static int myCallback (void * notUsed, int argc, char * argv[], char * names[]) {
-	NSMutableDictionary * properties = [NSMutableDictionary dictionary];
-	notUsed = NULL;
-	int i;
-	for (i = 0; i < argc; i++) {
-		char * name = names[i];
-		char * contents = argv[i];
-		if (!contents) contents = "(null)";
-		[properties setObject:[NSData dataWithBytes:contents length:strlen(contents)]
-					   forKey:[NSString stringWithFormat:@"%s", name]];
-	}
-	[gReturnValue addObject:properties];
-	return 0;
-}
-
 @implementation ANSQLite3Manager
 
 @synthesize database;
@@ -70,20 +53,7 @@ static int myCallback (void * notUsed, int argc, char * argv[], char * names[]) 
 }
 
 - (NSArray *)executeQuery:(NSString *)query {
-	if (!database) return nil;
-	if (gReturnValue) [gReturnValue release];
-	gReturnValue = [[NSMutableArray alloc] init];
-	char * zErrMsg = NULL;
-	int rc = sqlite3_exec(database, [query UTF8String], myCallback, NULL, &zErrMsg);
-	if (rc != SQLITE_OK) {
-		[gReturnValue release];
-		gReturnValue = nil;
-		return nil;
-	}
-	NSArray * array = [NSArray arrayWithArray:gReturnValue];
-	[gReturnValue release];
-	gReturnValue = nil;
-	return array;
+	return [self executeQuery:query withParameters:[NSArray array]];
 }
 
 - (NSArray *)executeQuery:(NSString *)query withParameters:(NSArray *)params {
