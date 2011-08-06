@@ -6,7 +6,7 @@
 //  Copyright 2010 Jitsik. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 #import <sqlite3.h>
 
 
@@ -14,10 +14,13 @@
 @interface ANSQLite3Manager : NSObject {
 	sqlite3 * database;
 }
+
+@property (readonly) sqlite3 * database;
+
 - (id)initWithDatabaseFile:(NSString *)filename;
 - (BOOL)openDatabaseFile:(NSString *)filename;
 - (NSArray *)executeQuery:(NSString *)query;
 - (NSArray *)executeQuery:(NSString *)query withParameters:(NSArray *)params;
 - (void)closeDatabase;
-@property (readonly) sqlite3 * database;
+
 @end
