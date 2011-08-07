@@ -61,12 +61,6 @@
 	sqlite3_stmt * stmt = NULL;
 	int rc = sqlite3_prepare_v2(database, [query UTF8String], [query length],
 								&stmt, NULL);
-	if (rc != SQLITE_OK) {
-		if (stmt) {
-			sqlite3_finalize(stmt);
-		}
-		return nil;
-	}
 	
 	for (int i = 0; i < [params count]; i++) {
 		id obj = [params objectAtIndex:i];
@@ -84,6 +78,13 @@
 				sqlite3_bind_int64(stmt, i+1, [(NSNumber *)obj longLongValue]);
 			}
 		}
+	}
+	
+	if (rc != SQLITE_OK) {
+		if (stmt) {
+			sqlite3_finalize(stmt);
+		}
+		return nil;
 	}
 	
 	NSMutableArray * resultArray = [[NSMutableArray alloc] init];
@@ -114,10 +115,16 @@
 		[resultArray addObject:row];
 		[row release];
 	}
+	
 	sqlite3_finalize(stmt);
 	NSArray * immutable = [NSArray arrayWithArray:resultArray];
 	[resultArray release];
 	return immutable;
+}
+
+- (UInt64)lastInsertRowID {
+	NSAssert(database != nil, @"Invalid database when retrieving last insert row ID");
+	return sqlite3_last_insert_rowid(database);
 }
 
 - (void)closeDatabase {
