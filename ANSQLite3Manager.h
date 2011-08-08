@@ -1,40 +1,27 @@
 //
-//  ANListManager.h
-//  SuperLists
+//  ANSQLite3Manager.h
+//  ANSQLite
 //
-//  Created by Alex Nichol on 8/6/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Created by Alex Nichol on 11/19/10.
+//  Copyright 2010 Jitsik. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "ANSQLite3Manager.h"
-#import "ANListItem.h"
-#include "ByteEndian.h"
+#import <sqlite3.h>
 
-#define kAutoClose NO
 
-#define kDatabaseIdleCloseTime 10
-#define kListDBKeyFlags @"flags"
-#define kListDBKeyDueDate @"duedate"
-#define kListDBKeyID @"id"
-#define kListDBKeyParentID @"parent_id"
-#define kListDBKeyTitle @"title"
-#define kListDBKeyPasscode @"passcode"
-#define kListDBKeyNotes @"notes"
-#define kListDBKeySubItems @"sub_items"
 
-@interface ANListManager : NSObject {
-    ANSQLite3Manager * databaseManager;
-	NSNumber * lastTransactionID;
+@interface ANSQLite3Manager : NSObject {
+	sqlite3 * database;
 }
 
-@property (nonatomic, retain) NSNumber * lastTransactionID;
+@property (readonly) sqlite3 * database;
 
-+ (ANListManager *)sharedListManager;
-- (void)connectDatabase;
-- (void)disconnectDatabase;
-- (ANListItem *)listItemForID:(UInt64)itemID;
-- (NSArray *)listItemsForParentID:(UInt64)parentID;
-- (void)insertItem:(ANListItem *)listItem;
+- (id)initWithDatabaseFile:(NSString *)filename;
+- (BOOL)openDatabaseFile:(NSString *)filename;
+- (NSArray *)executeQuery:(NSString *)query;
+- (NSArray *)executeQuery:(NSString *)query withParameters:(NSArray *)params;
+- (UInt64)lastInsertRowID;
+- (void)closeDatabase;
 
 @end

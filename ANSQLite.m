@@ -27,6 +27,7 @@ int main (int argc, const char * argv[]) {
 		NSLog(@"%d|%@|%@", itemID, name, contents);
 	}
 	
+	[man closeDatabase];
 	[man release];
 	
     [pool drain];

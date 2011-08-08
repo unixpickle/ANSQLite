@@ -9,9 +9,9 @@ cCompileC build/ANSQLite.build/Debug/ANSQLite.build/Objects-normal/x86_64/ANSQLi
 cLd /Users/alex/xCode/git/ANSQLite/build/Debug/ANSQLite normal x86_64
 
 N/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C11730A0000000000B37440
-t1276211978
-s11760704
+c000000004CD605D10000000000B3E910
+t1289094609
+s11790608
 
 N/Users/alex/Desktop/ANSQLite/ANSQLite.m
 c000000004CE71D79000000000000055A
@@ -62,23 +62,23 @@ t2
 s0
 
 N/Users/alex/xCode/git/ANSQLite/ANSQLite.m
-c000000004CE74201000000000000055F
-t1290224129
+c000000004CF59E70000000000000055F
+t1291165296
 s1375
 i<Foundation/Foundation.h>
 i"ANSQLite3Manager.h"
 
 N/Users/alex/xCode/git/ANSQLite/ANSQLite3Manager.h
-c000000004CE8359C0000000000000215
-t1290286492
+c000000004CF59EC10000000000000215
+t1291165377
 s533
 i<Cocoa/Cocoa.h>
 i<sqlite3.h>
 
 N/Users/alex/xCode/git/ANSQLite/ANSQLite3Manager.m
-c000000004CE835A10000000000000EFF
-t1290286497
-s3839
+c000000004CF59EBC0000000000000F60
+t1291165372
+s3936
 i"ANSQLite3Manager.h"
 
 N/Users/alex/xCode/git/ANSQLite/ANSQLite_Prefix.pch
@@ -135,8 +135,8 @@ t1261318642
 s9516
 
 N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANSQLite_Prefix-abbyfgxfrtqwvabjzhomkrhwjstl/ANSQLite_Prefix.pch.gch
-t1290224139
-s41442064
+t2
+s0
 
 N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANSQLite_Prefix-affrktmpicgsnrcnkpiyozqwycbl/ANSQLite_Prefix.pch.gch
 t1290212473
