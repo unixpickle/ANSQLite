@@ -14,6 +14,8 @@ To create an ANSQLite3Manager object, you can use the ```-initWithDatabaseFile:`
         exit(-1);
     }
 
-Once you have an instance of ANSQLite3Manager, you can execute queries using the ```-executeQuery:``` or ```-executeQuery:withParameters:``` method.  Both of these methods return an ```NSArray``` object containing an array of ```NSDictionary``` objects.  Each dictionary represents a row in the database, with keys from the database columns, and values of various types.
+Once you have an instance of ANSQLite3Manager, you can execute queries using the ```-executeQuery:``` or ```-executeQuery:withParameters:``` method.  Both of these methods return an ```NSArray``` object containing one or more ```NSDictionary``` objects.
+
+Each dictionary in a query result represents a row in the database.  All keys in this dictionary will be instances of ```NSString```, and all objects will be instances of either ```NSData```, ```NSString```, or ```NSNumber```.
 
 Once you are done with the database, you can use the ```-closeDatabase``` method to finalize the database file and free memory used by the internal sqlite3 datastructure.
