@@ -9,9 +9,9 @@ Create a database object
 To create an ANSQLite3Manager object, you can use the ```-initWithDatabaseFile:``` or ```-openDatabaseFile:``` methods.  Here is an example of creating a new database manager:
 
     ANSQLite3Manager * manager = [[ANSQLite3Manager alloc] initWithDatabaseFile:@"aFile.db"];
-    if (!man.database) {
+    if (!manager.database) {
+		[manager release];
         NSLog(@"Could not open database.");
-        exit(-1);
     }
 
 Once you have an instance of ANSQLite3Manager, you can execute queries using the ```-executeQuery:``` or ```-executeQuery:withParameters:``` method.  Both of these methods return an ```NSArray``` object containing one or more ```NSDictionary``` objects.
