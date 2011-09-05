@@ -59,7 +59,7 @@
 - (NSArray *)executeQuery:(NSString *)query withParameters:(NSArray *)params {
 	if (!database) return nil;
 	sqlite3_stmt * stmt = NULL;
-	int rc = sqlite3_prepare_v2(database, [query UTF8String], [query length],
+	int rc = sqlite3_prepare_v2(database, [query UTF8String], (int)[query length],
 								&stmt, NULL);
 	
 	for (int i = 0; i < [params count]; i++) {
@@ -67,10 +67,10 @@
 		if ([obj isKindOfClass:[NSString class]]) {
 			const char * utfString = [(NSString *)obj UTF8String];
 			sqlite3_bind_text(stmt, i+1, utfString,
-							  strlen(utfString), SQLITE_TRANSIENT);
+							  (int)strlen(utfString), SQLITE_TRANSIENT);
 		} else if ([obj isKindOfClass:[NSData class]]) {
 			sqlite3_bind_blob(stmt, i+1, [(NSData *)obj bytes], 
-							  [(NSData *)obj length], SQLITE_TRANSIENT);
+							  (int)[(NSData *)obj length], SQLITE_TRANSIENT);
 		} else if ([obj isKindOfClass:[NSNumber class]]) {
 			if ([(NSNumber *)obj doubleValue] == (double)([(NSNumber *)obj longLongValue])) {
 				sqlite3_bind_double(stmt, i+1, [(NSNumber *)obj doubleValue]);
