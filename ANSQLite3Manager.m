@@ -81,9 +81,7 @@
 	}
 	
 	if (rc != SQLITE_OK) {
-		if (stmt) {
-			sqlite3_finalize(stmt);
-		}
+		if (stmt) sqlite3_finalize(stmt);
 		return nil;
 	}
 	
@@ -113,13 +111,10 @@
 			}
 		}
 		[resultArray addObject:row];
-		[row release];
 	}
 	
 	sqlite3_finalize(stmt);
-	NSArray * immutable = [NSArray arrayWithArray:resultArray];
-	[resultArray release];
-	return immutable;
+    return [resultArray copy];
 }
 
 - (UInt64)lastInsertRowID {
@@ -136,7 +131,6 @@
 
 - (void)dealloc {
 	if (database) [self closeDatabase];
-	[super dealloc];
 }
 
 @end
